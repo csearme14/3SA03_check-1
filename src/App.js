@@ -1,7 +1,10 @@
 import React from 'react';
-import WordCard from './WordCard';
+import logo from './logo.svg';
 import './App.css';
+
+import WordCard from './WordCard';
 const word = "Hello";
+
 function App() {
  return (
  <div>
