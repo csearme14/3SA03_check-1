@@ -30,17 +30,20 @@
   .card {
     display: inline-block;
     text-align: center;
-    width: 3em;
-    font-size: 2em;
+    width: 10em;
+    font-size: 3.3em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 1em;
     user-select: none;
    }
    .activeCard {
-    color: red;
-    background: pink;
+    color:purple;
+    background:plum;
    }
-   
+   body {
+    text-align: center;
+    background-image: url("https://www.shutterstock.com/th/blog/wp-content/uploads/sites/16/2018/09/21.jpg?w=750");
+  }
   
   @keyframes App-logo-spin {
     from {
